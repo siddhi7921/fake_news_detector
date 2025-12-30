@@ -103,21 +103,7 @@ fake-news-detector/
 ├── requirements.txt    # Dependencies
 └── README.md
 
-▶️ Run Locally
-1️⃣ Clone the Repository
-git clone https://github.com/siddhi7921/fake-news-detector.git
-cd fake-news-detector
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the App
-streamlit run app.py
-
-
-Open in browser:
-
-http://localhost:8501
 
 🧪 Demo Headlines (For Testing)
 English
