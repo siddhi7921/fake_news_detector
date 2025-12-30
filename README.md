@@ -2,11 +2,6 @@
 
 An **AI-powered Fake News Detection Web Application** that identifies misinformation in **English, Hindi, and Bengali** using **Natural Language Processing (NLP)** and **Transformer-based deep learning (mBERT)**.
 
-🔗 **Live Demo Website:**  
-👉 https://fake-news-detector-siddhinath.streamlit.app  
-*(Replace with your actual deployed Streamlit URL)*
-
----
 
 ## 🚨 Problem Statement
 
