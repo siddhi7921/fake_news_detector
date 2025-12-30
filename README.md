@@ -6,7 +6,7 @@ An AI-powered Fake News Detection Web Application that identifies misinformation
 
 🌐 Live Demo
 
-👉 https://fake-news-detector-siddhi7921.streamlit.app
+👉 https://siddhi7921-fake-news-detector-app-avntxy.streamlit.app/#analysis-result
 
 ⏳ Note: The app may take a few seconds to load initially due to model initialization.
 
