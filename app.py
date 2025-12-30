@@ -85,6 +85,9 @@ if st.button("Check News"):
         else:
             st.error(f"Low credibility – possible misinformation ❌")
             st.progress(credibility / 100)
+if len(news_text.strip()) < 15:
+    st.warning("⚠️ Text too short for reliable prediction. Please enter a full headline or paragraph.")
+    st.stop()
 
         # Short-text warning
         if len(news_text.strip()) < 20:
