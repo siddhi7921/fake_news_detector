@@ -5,7 +5,7 @@ from langdetect import detect, DetectorFactory
 # Fix randomness for langdetect
 DetectorFactory.seed = 0
 
-# Streamlit page config
+# --- Streamlit page config ---
 st.set_page_config(
     page_title="Fake News Detector 🇮🇳",
     layout="centered"
@@ -20,6 +20,11 @@ example_news = [
     "Government announces new digital education policy.",
     "सरकार ने नई शिक्षा नीति की घोषणा की।",
     "সরকার নতুন শিক্ষানীতি ঘোষণা করেছে।",
+    "Breaking: Celebrity X caught in controversy!",
+    "COVID-19 vaccine distribution updates released.",
+    "Scientific study proves chocolate cures all diseases.",
+    "प्रधानमंत्री ने किसानों के लिए नई योजना शुरू की।",
+    "রাজ্য সরকার নতুন বাজেট ঘোষণা করেছে।"
 ]
 
 st.subheader("💡 Try these examples:")
