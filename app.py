@@ -20,8 +20,6 @@ example_news = [
     "Government announces new digital education policy.",
     "सरकार ने नई शिक्षा नीति की घोषणा की।",
     "সরকার নতুন শিক্ষানীতি ঘোষণা করেছে।",
-    "Breaking: Celebrity X caught in controversy!",
-    "COVID-19 vaccine distribution updates released."
 ]
 
 st.subheader("💡 Try these examples:")
