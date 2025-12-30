@@ -1,58 +1,180 @@
-# 📰 Fake News Detection System (Indian Languages 🇮🇳)
+📰 Fake News Detection System 🇮🇳
 
-An **AI-powered Fake News Detection Web Application** that identifies misinformation in **English, Hindi, and Bengali** using **Natural Language Processing (NLP)** and **Transformer-based deep learning (mBERT)**.
+(English • Hindi • Bengali)
+
+An AI-powered Fake News Detection Web Application that identifies misinformation across Indian languages using Transformer-based NLP (mBERT) and a clean Streamlit UI.
+
+🌐 Live Demo
+
+👉 https://fake-news-detector-siddhi7921.streamlit.app
+
+⏳ Note: The app may take a few seconds to load initially due to model initialization.
+
+🚨 Problem Statement
+
+Fake news spreads rapidly on:
+
+Social media
+
+Messaging platforms
+
+Unverified news portals
+
+This leads to:
+
+Public panic
+
+Social unrest
+
+Political misinformation
+
+Poor decision-making
+
+Most existing solutions:
+
+Support only English
+
+Do not focus on Indian regional languages
+
+Do not provide a credibility score
+
+💡 Our Solution
+
+This system:
+
+Detects Fake vs Real news
+
+Supports English, Hindi, and Bengali
+
+Generates a Credibility Score (0–100%)
+
+Automatically detects language
+
+Provides a visual, explainable output
+
+✨ Key Features
+
+✅ Multilingual support (🇮🇳 India-focused)
+✅ REAL / FAKE classification
+✅ Credibility progress bar
+✅ Color-coded confidence output
+✅ Short-text handling & warnings
+✅ Hackathon-ready UI
+✅ Fully deployed live demo
+
+🧠 System Architecture
+User Input (News Text)
+        ↓
+Language Detection
+        ↓
+Text Preprocessing
+        ↓
+Transformer Model (mBERT)
+        ↓
+Fake / Real Prediction
+        ↓
+Credibility Score Output
+
+⚙️ Tech Stack
+
+Frontend: Streamlit
+
+Backend: Python
+
+AI / ML: NLP, Transformer (mBERT)
+
+Libraries:
+
+PyTorch
+
+HuggingFace Transformers
+
+langdetect
+
+NumPy, Pandas
+
+📁 Project Structure
+fake-news-detector/
+│
+├── app.py              # Streamlit web app
+├── model.py            # Model loading & prediction
+├── preprocess.py       # Text cleaning
+├── train.py            # Optional training script
+├── requirements.txt    # Dependencies
+└── README.md
+
+▶️ Run Locally
+1️⃣ Clone the Repository
+git clone https://github.com/siddhi7921/fake-news-detector.git
+cd fake-news-detector
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the App
+streamlit run app.py
 
 
-## 🚨 Problem Statement
+Open in browser:
 
-The rapid spread of fake news through social media and messaging platforms has led to:
-- Public panic and misinformation
-- Social and communal tension
-- Political manipulation
-- Poor decision-making
+http://localhost:8501
 
-Most existing fake news detection systems:
-- Support only English
-- Ignore Indian regional languages
-- Provide only binary results without confidence levels
+🧪 Demo Headlines (For Testing)
+English
 
----
+Government announces new digital education policy.
 
-## 💡 Proposed Solution
+Alien spaceship spotted over New York City!
 
-This project provides an **AI-based Fake News Detection System** that:
-- Detects whether news is **Fake or Real**
-- Supports **English, Hindi, and Bengali**
-- Generates a **Credibility Score (0–100%)**
-- Uses **Transformer (Multilingual BERT)** for better context understanding
-- Is accessible through a **live web application**
+Hindi
 
----
+सरकार ने नई शिक्षा नीति की घोषणा की।
 
-## 🌐 Live Web Application
+वैज्ञानिकों ने बताया कि चंद्रमा पर जीवन है।
 
-🌐 Live Demo Website
-👉 https://fake-news-detector-akash-ai.streamlit.app
-### How to Use:
-1. Open the live website  
-2. Enter or paste any news text (English / Hindi / Bengali)  
-3. Click **“Check News”**  
-4. View prediction and credibility score instantly  
+Bengali
 
-> ⏳ Note: The first request may take a few seconds due to model loading.
+সরকার নতুন শিক্ষানীতি ঘোষণা করেছে।
 
----
+বিজ্ঞানীরা বলছেন মানুষ বাতাস ছাড়া বাঁচতে পারে।
 
-## ✨ Key Features
+📊 Demo Testing Table
+Headline	Language	Expected Output	Credibility
+Govt announces education policy	English	REAL	80–90%
+Alien spaceship spotted	English	FAKE	30–45%
+नई शिक्षा नीति की घोषणा	Hindi	REAL	80–90%
+चंद्रमा पर जीवन है	Hindi	FAKE	30–50%
+নতুন শিক্ষানীতি ঘোষণা	Bengali	REAL	80–90%
+মানুষ বাতাস ছাড়া বাঁচতে পারে	Bengali	FAKE	25–45%
+⚠️ Limitations
 
-- 🌍 Multilingual support (English, Hindi, Bengali)
-- 🧠 Transformer-based AI model (mBERT)
-- 📊 Credibility score instead of only binary output
-- ⚡ Real-time prediction
-- 🖥️ Clean and user-friendly interface
-- 🇮🇳 India-focused social impact
+Very short text may reduce accuracy
 
----
+Language detection is probabilistic
 
-## 🏗️ System Architecture
+Model accuracy depends on training data
 
+🚀 Future Enhancements
+
+WhatsApp & social media message verification
+
+Image & video fake news detection
+
+Browser extension
+
+Mobile app
+
+Explainable AI heatmaps
+
+👨‍💻 Developer
+
+Siddhinath Chakraborty
+CSE (AI & ML) | Hackathon Project 🇮🇳
+
+GitHub: https://github.com/siddhi7921
+
+📜 License
+
+Open-source project for educational and research purposes.
+
+⭐ If you like this project, please give it a star on GitHub!
