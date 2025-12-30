@@ -4,7 +4,7 @@ An **AI-powered Fake News Detection Web Application** that detects misinformatio
 
 🔗 **Live Website:**  
 👉 https://fake-news-detector-india.streamlit.app  
-*(Demo link – replace with your deployed URL)*
+
 
 ---
 
