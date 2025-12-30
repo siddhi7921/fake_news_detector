@@ -31,9 +31,8 @@ This project provides an **AI-based Fake News Detection System** that:
 
 ## 🌐 Live Web Application
 
-🚀 **Access the Live App:**  
-👉 https://fake-news-detector-siddhinath.streamlit.app
-
+🌐 Live Demo Website
+👉 https://fake-news-detector-akash-ai.streamlit.app
 ### How to Use:
 1. Open the live website  
 2. Enter or paste any news text (English / Hindi / Bengali)  
